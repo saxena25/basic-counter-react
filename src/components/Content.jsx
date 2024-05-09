@@ -6,6 +6,7 @@ export default function Content(){
 
     return (
         <>
+            <h1>Basic Counter App</h1>
             <h1>{count}</h1>
             <button onClick={()=>setCount(count + 1)} disabled={count >= 10}>add</button>
             <button onClick={()=>setCount(count - 1)} disabled={count <= 0}>minus</button>
